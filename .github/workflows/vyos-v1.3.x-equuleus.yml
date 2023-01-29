@@ -1,7 +1,8 @@
 name: VyOS v1.3.x LTS Release
 
 on:
-
+  workflow_dispatch:
+  
 env:
   GIT_CLONE_URL: https://github.com/vyos/vyos-build
   DEBIAN_MIRROR: http://ftp.us.debian.org/debian/
