@@ -13,7 +13,7 @@ env:
   BUILD_VERSION: 1.3.2
   BUILD_QEMU: true
   BUILD_QCOW2: true
-  PACKER_JSON_PATCH: true
+  PACKER_JSON_PATCH: false
   PACKER_JSON_PATCH_FILE: packer.json_wait-time_equuleus.patch
   ARTIFACTS_DIR: artifacts
   WORKING_DIR: vyos-build
