@@ -3,6 +3,9 @@ index f1e4979..da8e06a 100644
 --- a/scripts/packer.json
 +++ b/scripts/packer.json
 @@ -25,36 +25,36 @@
+       "ssh_username": "vyos",
+       "ssh_password": "vyos",
+       "ssh_port": 22,
        "vm_name": "vyos_qemu_image.img",
        "net_device": "virtio-net",
        "disk_interface": "virtio",
