@@ -19,6 +19,9 @@ env:
   WORKING_DIR: vyos-build
   STATUS_SUCCESS: "::set-output name=status::success"
 
+permissions: 
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -85,3 +88,4 @@ jobs:
             vyos-${{ env.BUILD_VERSION }}-${{ env.BUILD_ARCH }}.iso
             vyos-${{ env.BUILD_VERSION }}-${{ env.BUILD_ARCH }}-qemu.img
             vyos-${{ env.BUILD_VERSION }}-${{ env.BUILD_ARCH }}-qemu.qcow2
+
